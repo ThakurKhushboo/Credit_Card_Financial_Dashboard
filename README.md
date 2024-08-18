@@ -8,6 +8,7 @@ Prepared CSV files for import.
 Created tables in SQL to accommodate the data.
 Imported CSV files into SQL, ensuring accurate data storage.
 Enhanced Data Using DAX Queries:
+
 Created meaningful data segments, such as age groups, with DAX to summarize large datasets:
 
 AgeGroup = SWITCH(
@@ -19,6 +20,7 @@ AgeGroup = SWITCH(
     'public cust_detail'[customer_age] >= 60, "60+",
     "unknown"
 )
+
 Applied similar logic to categorize customer income and other data points, ensuring clarity and usability across multiple scenarios.
 
 
